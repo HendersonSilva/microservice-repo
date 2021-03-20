@@ -3,6 +3,7 @@ spring:
     password: root
     username: password
     url: 'jdbc:mariadb://172.17.0.2:3306/loja'
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
