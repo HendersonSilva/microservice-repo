@@ -1,9 +1,9 @@
 spring:
   datasource:
-    password: root
-    username: password
     url: 'jdbc:mariadb://172.17.0.2:3306/loja'
-    driver-class-name: com.mysql.jdbc.Driver
+    password: password
+    username: root
+    driver-class-name: org.mariadb.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
