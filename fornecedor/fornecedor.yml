@@ -2,7 +2,7 @@ spring:
   datasource:
     password: root
     username: password
-    url: 'jdbc:mysql://172.17.0.2:3306/fornecedor'
+    url: 'jdbc:mariadb://172.17.0.2:3306/fornecedor'
   jpa:
     hibernate:
       ddl-auto: update
