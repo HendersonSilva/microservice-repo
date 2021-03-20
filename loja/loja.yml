@@ -1,9 +1,10 @@
 spring:
   datasource:
-    url: 'jdbc:mariadb://172.17.0.2:3306/loja'
+    url: jdbc:mariadb://172.17.0.2:3306/loja
     password: password
     username: root
     driver-class-name: org.mariadb.jdbc.Driver
   jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
     hibernate:
       ddl-auto: update
